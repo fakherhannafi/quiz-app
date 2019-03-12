@@ -12,6 +12,8 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 // Auth service
 import { AuthService } from "./shared/services/auth.service";
 
+// Reactive Form
+import { ReactiveFormsModule } from "@angular/forms";
 
 //Components
 import { AppComponent } from './app.component';
@@ -38,6 +40,7 @@ import { environment } from '../environments/environment';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     AngularFirestoreModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
