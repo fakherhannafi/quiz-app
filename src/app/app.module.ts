@@ -5,12 +5,11 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './shared/routing/app-routing.module';
 
 // Firebase services + enviorment module
-import { AngularFireModule } from "@angular/fire";
-import { AngularFireAuthModule } from "@angular/fire/auth";
-import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireModule } from "@angular/fire"
+import { AngularFireAuthModule } from "@angular/fire/auth"
+import { AngularFirestoreModule } from '@angular/fire/firestore'
+import { AngularFireStorage } from "@angular/fire/storage"
 
-// Auth service
-import { AuthService } from "./shared/services/auth.service";
 
 // Reactive Form
 import { ReactiveFormsModule } from "@angular/forms";
@@ -42,7 +41,7 @@ import { environment } from '../environments/environment';
     AngularFirestoreModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [AngularFireStorage],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
