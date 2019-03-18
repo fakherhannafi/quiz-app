@@ -416,7 +416,7 @@ input.ng-invalid.ng-touched {
 
 /* Nav */
 body .navbar {
-  padding: 6px 0 !important;
+  padding: 0px 0 !important;
 }
 
 body .navbar-brand {
@@ -424,7 +424,7 @@ body .navbar-brand {
 }
 
 .brand-logo {
-  max-width: 85%;
+  max-width: 55%;
 }
 
 .pt-3,
@@ -478,7 +478,7 @@ label {
 }
 
 .navbar-dark .navbar-brand {
-  margin-left: 6px;
+  margin-left: 3px;
 }
 
 .custom-text strong {
@@ -577,7 +577,7 @@ body .table thead th {
   }
 
   .brand-logo {
-    max-width: 175px;
+    max-width: 100px;
     margin: 0 auto;
     display: block;
   }
